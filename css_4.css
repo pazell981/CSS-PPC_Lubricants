@@ -61,7 +61,7 @@ h1 {
 }
 #body {
 	background-color: #000000;
-	padding: 5px 20px;
+	padding: 5px 20px 20px;
 }
 #info {
 	width: 100%;
@@ -127,17 +127,16 @@ h1 {
 	width: 220px;
 }
 .column p {
-	padding: 15px 10px;
+	padding: 10px;
 	font-size: 8pt;
+	height: 65px;
 }
 
 .readmore {
-	position: absolute;
-	bottom: -185px;
 	width: 125px;
 	height: 30px;
 	margin-left: 110px;
-	padding: 0px 10px;
+	padding: 3px 8px;
 	background-image: url('readmore.png');
 	background-size: 105px 25px;
 	background-repeat: no-repeat;
@@ -146,6 +145,7 @@ h1 {
 
 .readmore a {
 	color: #000000;
+	padding: 0px 0px;
 	font-size: 8pt;
 	font-weight: bold;
 	text-transform: uppercase;
